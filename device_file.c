@@ -5,7 +5,7 @@
 #include <linux/module.h>  /* THIS_MODULE */
 #include <linux/cdev.h>      /* char device stuff */
 #include <asm/uaccess.h>  /* copy_to_user() */
-
+//test
 
 static const char    g_s_Hello_World_string[] = "Hello world from kernel mode!\n\0";
 static const ssize_t g_s_Hello_World_size = sizeof(g_s_Hello_World_string);
